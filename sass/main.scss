@@ -1,0 +1,63 @@
+/**
+ * @file
+ *
+ * Base theme
+ *
+ * Main.css
+ *
+ */
+html,body{
+	height:100%;
+}
+
+body {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	margin:0 auto;
+	padding-top: 50px;
+}
+
+/*
+#footer {
+	height: 60px;
+	background-color: #f5f5f5;
+	position: relative;
+	
+	above{
+		height: 40px;
+	}
+	below{
+		height: 20px;
+	}
+}
+*/
+#footer{
+	background-color: #080808;
+	color: #FFF;
+	margin: 4% 0% 0;
+	height: auto;
+	top: 100%;
+	position: relative;
+	display:block;
+	width: 100%;
+	overflow:hidden;
+	padding: 0 auto;
+		
+	.above, .below{
+		margin: 1% 5%;
+	}
+	
+	.above{
+		height: 65%;
+	}
+	
+	.below{
+		height: 25%;
+		border-top: thin #918A8A solid;
+	}
+}
+
+
+
+
+
+
