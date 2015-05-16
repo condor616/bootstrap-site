@@ -8,6 +8,8 @@
  */
 html,body{
 	height:100%;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -15,6 +17,24 @@ body {
 	font-size: 1.5em;
 	margin:0 auto;
 	padding-top: 50px;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.flexslider{
+	max-height: 350px;
+	
+	ul.slides{
+    	display: block;
+    	height: auto;
+    	overflow: hidden;
+		
+		li{
+			max-height: 350px;
+		}
+	}	
 }
 
 #footer{

@@ -9,9 +9,11 @@
 /* line 9, ../sass/main.scss */
 html, body {
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-/* line 13, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 body {
   font-family: Verdana,Arial,Helvetica,sans-serif;
   font-size: 1.5em;
@@ -19,7 +21,27 @@ body {
   padding-top: 50px;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
+.container-fluid {
+  padding: 0;
+}
+
+/* line 26, ../sass/main.scss */
+.flexslider {
+  max-height: 350px;
+}
+/* line 29, ../sass/main.scss */
+.flexslider ul.slides {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+/* line 34, ../sass/main.scss */
+.flexslider ul.slides li {
+  max-height: 350px;
+}
+
+/* line 40, ../sass/main.scss */
 #footer {
   background-color: #080808;
   color: #FFF;
@@ -32,37 +54,37 @@ body {
   overflow: hidden;
   padding: 0 auto;
 }
-/* line 32, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 #footer .above, #footer .below {
   margin: 0 5%;
 }
-/* line 36, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 #footer .above {
   padding: 1% 0;
   border-bottom: thin #918A8A solid;
 }
-/* line 41, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 #footer .below {
   padding: 1% 0;
   font-size: 0.75em;
 }
-/* line 45, ../sass/main.scss */
+/* line 65, ../sass/main.scss */
 #footer .below div.legal {
   width: 100%;
   overflow: hidden;
 }
-/* line 50, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 #footer .below div.legal ul {
   padding-left: 0;
   list-style-type: none;
 }
-/* line 53, ../sass/main.scss */
+/* line 73, ../sass/main.scss */
 #footer .below div.legal ul li {
   overflow: hidden;
   float: left;
   padding: 0 1%;
 }
-/* line 58, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 #footer .below div.legal ul li:first-child {
   padding-left: 0;
 }
